@@ -1,0 +1,134 @@
+/* 
+hero
+---- 
+*/
+.heroBlock {
+    /* background: url('../../images/bg-hero.jpg') no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 70vh; */
+  }
+  
+  .heroBlock .container-fluid {
+    display: block !important;
+  }
+  
+  .heroBlock .ant-carousel,
+  .heroBlock .ant-carousel div {
+    height: 100%;
+  }
+  
+  .heroBlock .slick-dots li button {
+    background: #000 !important;
+  }
+  
+  .heroBlock .slick-dots li.slick-active button {
+    background: #1890ff !important;
+  }
+  
+  .heroBlock .content {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 70px;
+  }
+  .slider-info{
+    position: absolute;
+    top:20%;
+    left:30%;
+    color:white;    
+  }
+  
+  .heroBlock h3 {   
+    font-size: 30px;
+    line-height: 1.2;
+    /* margin: 0 0 30px; */
+    color:white;
+  }
+  
+  .heroBlock p {    
+    margin: 0 0 30px;
+    padding-right: 10%;
+  }
+  
+  .heroBlock .btnHolder {
+    height: auto !important;
+  }
+  
+  /* .heroBlock .btnHolder button,
+  .heroBlock .btnHolder .fas {
+    margin: 0 10px 0 0;
+  } */
+  .play {
+    position: absolute;
+    top: 45%;
+    left: 8%!important;
+    transform: translate(-50%, -50%);
+    color: #001529 !important;
+   
+  }
+  .pageheader{
+    color:#05a5a5;
+  }
+  .hero-img{
+    width: 100%!important;
+    height: 55vh !important;
+  }
+
+  @media only screen and (max-width: 991px) {
+    /* .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+      transform: scale(1.14); */
+     .slider-info h3{
+       font-size:25px;
+     }
+     .hero-img{    
+      height: 100vh !important;
+    }
+     .pageheader{
+      display:none;
+    }
+      .mobileHidden {
+        display: none;
+      }
+      .mobilebtn{
+        font-size:16px;
+        width: 100% !important;
+        padding:0 10px !important;
+        margin:2px 5px!important;
+      }
+    }
+  
+  
+  @media only screen and (max-width: 767px) {
+    /* .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+      transform: scale(1);
+    } */
+  
+    /* .mobileVisible {
+      display: block;
+    } */
+    .slider-info h3{
+      font-size:16px;
+    }
+    .hero-img{    
+      height: 50vh !important;
+    }
+    .pageheader{
+      display:none;
+    }
+    
+    .mobileHidden {
+      display: none;
+    }
+    .mobilebtn{
+      font-size:16px;
+      width: 100% !important;
+      padding:0 10px !important;
+      margin:2px 5px!important;
+
+    }
+  }
+  
+  

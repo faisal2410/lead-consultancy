@@ -1,0 +1,82 @@
+/* 
+title holder
+------------
+*/
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.titleHolder:after {
+  transform: translateX(-50%);
+  content: "";
+  background: #1890ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* 
+how it works
+------------
+*/
+.worksBlock {
+  background: url("/images/bg-works.jpg") no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+}
+
+.worksBlock:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.worksBlock h2 {
+  color: #fff;
+}
+
+.worksBlock .contentHolder {
+  text-align: center;
+}
+
+.worksBlock .contentHolder button {
+  font-size: 40px!important;
+  line-height: 1;
+  background-color: rgb(43, 34, 34);
+  border: 1px solid transparent;
+  color: #fff;
+  /* padding: 30px; */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  /* margin-bottom:20px; */
+  text-align: center;
+}
+.contentHolder .play {
+  position: absolute;
+  top: 45%;
+  left: 55%!important;
+  transform: translate(-58%, -50%);
+  color: #fff!important;
+  
+}
+.bgGray {
+    background: #fafafa;
+  }
